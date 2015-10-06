@@ -97,9 +97,9 @@ jQuery(function () {
 		jQuery('.menu-links').appendTo('#FULL_MENU');
 		jQuery('.welcome').appendTo('#FULL_WELCOME');
 	}
-	if (jQuery(window).width() <= 767) {
+	if (jQuery(window).width() <= 768) {
 	}
-	if (jQuery(window).width() > 767) {
+	if (jQuery(window).width() > 768) {
 	}
 
 
@@ -117,9 +117,9 @@ jQuery(function () {
 			jQuery('.welcome').appendTo('#FULL_WELCOME');
             resizeMainContent();
 		}
-		if (jQuery(window).width() <= 767) {
+		if (jQuery(window).width() <= 768) {
 		}
-		if (jQuery(window).width() > 767) {
+		if (jQuery(window).width() > 768) {
 		}
     });
 
@@ -138,17 +138,17 @@ jQuery(function () {
 			jQuery('.welcome').appendTo('#FULL_WELCOME');
             resizeMainContent();
 		}
-        if (jQuery(window).width() <= 767) {
+        if (jQuery(window).width() <= 768) {
             resizeMainContent();
 		}
-        if (jQuery(window).width() > 767) {
+        if (jQuery(window).width() > 768) {
 			jQuery("#mobileMenu").removeAttr('style');
             resizeMainContent();
 		}
-		if (jQuery(window).width() <= 767) {
+		if (jQuery(window).width() <= 768) {
 			jQuery('#TAB_ICONS .icons-data').prependTo('#MOBILE_ICONS');
 		}
-		if (jQuery(window).width() > 767) {
+		if (jQuery(window).width() > 768) {
 			jQuery('#MOBILE_ICONS .icons-data').prependTo('#TAB_ICONS');
 		}
     });
@@ -174,7 +174,7 @@ jQuery(function () {
 
 
     /* Initiates <select> for Sub-Category & Blog menus at a specified width. */
-    if (jQuery(window).width() <= 767) {
+    if (jQuery(window).width() <= 768) {
 
         jQuery('#blog .blogNav ul').each(function () {
             var list = jQuery(this),
@@ -343,7 +343,7 @@ jQuery(document).mouseup(function (e)
 });
 
 jQuery("#mobileSearch").click(function() {
-	if (jQuery(window).width() > 767) {	
+	if (jQuery(window).width() > 768) {	
 		jQuery("#mobile_Search").slideToggle("fast")
 	}
 });
@@ -359,7 +359,7 @@ jQuery(document).mouseup(function (e)
 });
 
 jQuery(function () {
-	if (jQuery(window).width() <= 767) {
+	if (jQuery(window).width() <= 768) {
 	
 		jQuery(".footer-titles").click(function() {
 			jQuery(this).toggleClass('active');

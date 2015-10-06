@@ -83,13 +83,13 @@ jQuery('ul.subMenu').each(function () {
     if (jQuery(window).width() > 980) {
         jQuery('.mobile-categories').appendTo('.full-categories');
     }
-    if (jQuery(window).width() <= 767) {
+    if (jQuery(window).width() <= 768) {
         $(".mobile-heading").show();
         $(".mobile-heading h2").show();
         $(".mobile-display").show();
         jQuery('.account-links').appendTo('.links-mobile');
     }
-    if (jQuery(window).width() > 767) {
+    if (jQuery(window).width() > 768) {
         $(".mobile-heading").hide();
         $(".mobile-heading h2").hide();
         $(".mobile-display").hide();
@@ -107,13 +107,13 @@ jQuery('ul.subMenu').each(function () {
         if (jQuery(window).width() > 980) {
             jQuery('.mobile-categories').appendTo('.full-categories');
         }
-        if (jQuery(window).width() <= 767) {
+        if (jQuery(window).width() <= 768) {
             $(".mobile-heading").show();
             $(".mobile-heading h2").show();
             $(".mobile-display").show();
             jQuery('.account-links').appendTo('.links-mobile');          
         }
-        if (jQuery(window).width() > 767) {
+        if (jQuery(window).width() > 768) {
             $(".mobile-heading").hide();
             $(".mobile-heading h2").hide();
             $(".mobile-display").hide();
@@ -133,13 +133,13 @@ jQuery('ul.subMenu').each(function () {
             jQuery(".mobile-categories").removeAttr('style');
             jQuery('.mobile-categories').appendTo('.full-categories');
         }
-        if (jQuery(window).width() <= 767) {
+        if (jQuery(window).width() <= 768) {
             $(".mobile-heading").show();
             $(".mobile-heading h2").show();
             $(".mobile-display").show();
             jQuery('.account-links').appendTo('.links-mobile');
         }
-        if (jQuery(window).width() > 767) {
+        if (jQuery(window).width() > 768) {
             $(".mobile-heading").hide();
             $(".mobile-heading h2").hide();
             $(".mobile-display").hide();
@@ -320,7 +320,7 @@ jQuery(window).bind('orientationchange', function (event) {
 });
 
 /* Initiates <select> for Sub-Category & Blog menus at a specified width. */
-if (jQuery(window).width() <= 767) {
+if (jQuery(window).width() <= 768) {
 
     jQuery('#subcategoriesBlock .sub-categories-format').each(function () {
         var list = jQuery(this),

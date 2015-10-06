@@ -1557,7 +1557,7 @@ ul#desktopMenu li ul li:hover {
 
 /*	Theme Responsive Styles
 	-----------------------	*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 html {
 	padding: 0 !important;
@@ -1890,6 +1890,23 @@ body {
     .linkrow {display: none; visibility: hidden;}
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 768px) {
     .top-menu {background: #53a9ec; padding: 0!important;}
+	#modLinks{
+	text-align:center;
+}
+.productBlockContainer .product-container{
+	padding:0;
+	width:100%;
+}
+#searchBox{
+	display:none;
+}
+#logo{
+	margin-top:0;
+}
+#mobileMenu,
+#mobileCart{
+	display:block;
+}
 }
